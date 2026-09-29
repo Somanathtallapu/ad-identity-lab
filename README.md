@@ -159,8 +159,6 @@ New-ADGroup -Name "Finance-Staff" -GroupScope Global -GroupCategory Security `
 Add-ADGroupMember -Identity "Finance-Staff" -Members "priya.sharma"
 ```
 
-![Active Directory Users and Computers showing the Finance OU containing Finance-Staff and Priya Sharma](screenshots/06-aduc-tree.png)
-
 Structured per **AGDLP** — Accounts into Global groups, Global groups into Domain
 Local groups, permissions on the Domain Local group.
 
