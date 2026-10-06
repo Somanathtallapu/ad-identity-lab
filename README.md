@@ -7,6 +7,9 @@ Group Policy, password policy, service account hardening, and audit logging.
 Everything below was built and verified by hand in PowerShell, then cross-checked
 in the GUI consoles. Commands, errors, and findings are documented as they happened.
 
+**Cloud identity:** see [`entra/`](entra/) for the Microsoft Entra ID half of this lab — identity investigation from sign-in logs, Conditional Access policy design, and an automated privileged access review in Graph PowerShell.
+
+
 ---
 
 ## Environment
